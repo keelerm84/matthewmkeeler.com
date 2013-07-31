@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Arbutus+Slab);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url('/img/witewall_3.png') repeat;
+    color: #333;
+    text-align: justify;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arbutus Slab", serif;
+}
+
+.top-bar-section i {
+    font-size: 1.5em;
+}
+
+.main {
+    font-size: 4em;
+}
+
+.gravatar {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #eee;
+}
+
+.progress .meter {
+    font-size: 0.6em;
+    padding-left: 0.3em;
+    color: #fff;
+}
+
+i {
+    color: #fff;
+}
+
+ul.social-media i {
+    font-size: 2.5em;
+    color: #333;
+}

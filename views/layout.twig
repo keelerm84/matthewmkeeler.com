@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Matthew M. Keeler{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ app.request.basepath }}/css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ app.request.basepath }}/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ app.request.basepath }}/css/font-awesome-ie7.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ app.request.basepath }}/css/style.css">
+  </head>
+
+  <body>
+    <div class="contain-to-grid">
+    <nav class="top-bar">
+      <section class="top-bar-section">
+        <ul class="left">
+          <li><a href="#">Home</a></li>
+          <li class="divider"></li>
+          <li><a href="#">About</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Portfolio</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Resume</a></li>
+          <li class="divider"></li>
+          <li><a href="http://cupfullofcode.com">Blog</a></li>
+          <li class="divider"></li>
+        </ul>
+
+        <ul class="right">
+            <li><a href="http://twitter.com/keelerm84"><i class="icon-twitter"></i></a></li>
+            <li><a href="http://github.com/keelerm84"><i class="icon-github"></i></a></li>
+            <li><a href="http://stackoverflow.com/users/859409/keelerm"><i class="icon-stackexchange"></i></a></li>
+            <li><a href="http://www.youtube.com/user/keelerm84ify"><i class="icon-youtube-play"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/104117048769324832855/"><i class="icon-google-plus-sign"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/keelerm84"><i class="icon-linkedin"></i></a></li>
+        </ul>
+      </section>
+    </nav>
+    </div>
+
+    {% block body %}{% endblock %}
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "require": {
+        "silex/silex": "1.*",
+        "twig/twig": ">=1.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "Keelerm": "src/"
+        }
+    }
+}
