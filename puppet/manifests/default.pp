@@ -51,11 +51,11 @@ class { 'mysql':
   require => Exec['apt-get update'],
 }
 
-mysql::grant { 'now':
+mysql::grant { 'matthewmkeeler':
   mysql_privileges => 'ALL',
-  mysql_db => 'now',
-  mysql_user => 'now',
-  mysql_password => 'now',
+  mysql_db => 'matthewmkeeler',
+  mysql_user => 'app',
+  mysql_password => 'app',
   mysql_host => 'localhost',
   mysql_grant_filepath => '/home/vagrant/puppet-mysql',
 }

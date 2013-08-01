@@ -1,0 +1,28 @@
+{% extends "layout.twig" %}
+
+{% block body %}
+  <div class="row">
+    <div class="large-9 columns">
+        <h1>About Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec metus sem, laoreet vel tempor eget, vestibulum sed nunc. Nulla facilisi. Suspendisse potenti. Vestibulum ut ligula posuere, bibendum neque nec, fringilla ante. Quisque vel aliquam nibh. Nulla consequat sagittis justo in sodales. In non ligula quis leo eleifend feugiat eu in quam. Nulla rhoncus leo sit amet tincidunt venenatis.</p>
+
+        <p>Pellentesque sed lacus eu metus ultricies semper. Aenean ultricies at arcu quis vehicula. Fusce sollicitudin metus et quam tincidunt, eget suscipit dolor tempus. Sed id odio nec eros ultrices luctus. Etiam placerat ultricies quam, eu posuere nibh suscipit vitae. Cras molestie cursus vulputate. Proin urna nunc, eleifend eget faucibus sed, dignissim congue enim. Mauris nec mattis ipsum. Suspendisse non augue leo. Praesent tincidunt nunc ac felis pulvinar, vitae sagittis lacus interdum. Vestibulum luctus non augue sit amet euismod.</p>
+
+        <p>Aenean scelerisque neque non lorem vehicula ultrices. Mauris ut facilisis diam, in tincidunt purus. Sed mi leo, ornare vitae nibh non, pharetra gravida lorem. Nunc euismod ornare urna sit amet vulputate. Proin viverra arcu sed est varius, eget venenatis purus sodales. Proin non diam luctus, congue ligula lacinia, elementum nunc. Donec lacinia sem nec accumsan faucibus. Suspendisse fermentum libero ac vestibulum ultrices. Aliquam lorem urna, ullamcorper at libero sit amet, aliquam vestibulum eros. Vivamus convallis dui nibh, et elementum erat sagittis et. Pellentesque euismod imperdiet mi auctor tincidunt. Ut sit amet justo blandit, eleifend turpis semper, adipiscing velit. Nam sodales neque massa, a luctus neque iaculis congue. In mauris massa, sagittis vitae varius quis, fermentum ut erat.</p>
+
+        <p>Nulla consequat nec nunc ac ornare. Maecenas vel arcu risus. Vestibulum mollis hendrerit lorem, mattis lacinia dolor. Etiam lobortis mauris a libero iaculis, ac aliquam orci rhoncus. Sed mollis elit vitae metus volutpat dignissim. Donec vulputate rutrum lacus, eget adipiscing ipsum gravida id. Aliquam euismod arcu elit, eu aliquet tortor mattis in. Nunc adipiscing euismod leo. Duis scelerisque nibh in laoreet blandit.</p>
+
+        <p>Cras at elit sem. Aenean nec tortor iaculis, ultrices neque in, aliquam elit. Vivamus sit amet nisi eu urna cursus mattis. Pellentesque vel hendrerit enim. In auctor neque tristique libero tristique vulputate. Praesent eget ipsum purus. Integer aliquet tristique purus, nec elementum orci sagittis a. Aliquam erat volutpat. Maecenas ligula erat, eleifend quis sapien non, interdum congue arcu. Vestibulum sit amet libero eget sem egestas adipiscing vel non felis. Cras tortor neque, sollicitudin ut vulputate id, aliquam eu velit. Pellentesque vehicula id ipsum a tincidunt. Nam vel bibendum orci. Phasellus sagittis urna eu imperdiet convallis.</p>
+    </div>
+
+    <div class="large-3 columns">
+      <h3>Skills</h3>
+      <ul class="no-bullet">
+          {% for skill in skills %}
+            <li><div class="progress success"><span class="meter" style="width: {{ skill.weight }}%">{{ skill.skill }}</span></div></li>
+          {% endfor %}
+      </ul>
+      <small>* Sample data taken from my <a href="http://mojolive.com/profile/keelerm84">MojoLive profile</a>, shown relative to months of experience</small>
+    </div>
+  </div>
+{% endblock %}

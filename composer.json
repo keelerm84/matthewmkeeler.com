@@ -1,7 +1,12 @@
 {
     "require": {
         "silex/silex": "1.*",
-        "twig/twig": ">=1.8"
+        "twig/twig": ">=1.8",
+        "knplabs/console-service-provider": "dev-master",
+        "knplabs/migration-service-provider": "dev-master",
+        "deralex/yaml-config-service-provider": "1.0.x-dev",
+        "symfony/yaml": "2.1.*@dev",
+        "symfony/twig-bridge": "~2.3"
     },
     "autoload": {
         "psr-0": {

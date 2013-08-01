@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+a.button:after {
+    content:"  \00bb";
+}
+
 i {
     color: #fff;
 }
