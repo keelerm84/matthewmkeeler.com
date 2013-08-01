@@ -1,6 +1,9 @@
 <?php
 
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-$app = new Keelerm\Application(__DIR__);
+$app = require_once __DIR__ . '/../app/bootstrap.php';
+
+require_once __DIR__ . '/../src/controllers.php';
+
 $app->run();
