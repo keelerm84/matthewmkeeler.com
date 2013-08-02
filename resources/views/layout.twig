@@ -18,7 +18,7 @@
           <li class="divider"></li>
           <li><a href="{{ url('about') }}">About</a></li>
           <li class="divider"></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="{{ url('portfolio') }}">Portfolio</a></li>
           <li class="divider"></li>
           <li><a href="#">Resume</a></li>
           <li class="divider"></li>
@@ -39,5 +39,11 @@
     </div>
 
     {% block body %}{% endblock %}
+    {% block scripts %}
+      <script src="/js/vendor/jquery.js" type="text/javascript"></script>
+      <script src="/js/foundation/foundation.js" type="text/javascript"></script>
+      <script src="/js/foundation/foundation.section.js" type="text/javascript"></script>
+      <script type="text/javascript">$(document).foundation('section');</script>
+    {% endblock %}
   </body>
 </html>

@@ -1,0 +1,16 @@
+{% extends "layout.twig" %}
+
+{% block body %}
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Portfolio</h1>
+      <p>Below are some of the projects I have worked on.  This includes personal projects, open source contributions, and work done for various clients.  The languages used include, but are not limited to PHP, Ruby, C++ and Node.js.</p>
+      <div class="section-container accordion" data-section="accordion">
+        {% for template in templates %}
+          {% include template %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

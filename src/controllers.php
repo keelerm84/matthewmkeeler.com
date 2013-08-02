@@ -17,3 +17,10 @@ $app->get('/about', function() use ($app) {
 
     return $app['twig']->render('about.twig', array('skills' => $skills));
 })->bind('about');
+
+$app->get('/portfolio', function() use ($app) {
+    $templates = glob(__DIR__ . '/../resources/views/portfolio/*');
+    $templates = array_map(function($template) { return 'portfolio/' . basename($template); }, $templates);
+
+    return $app['twig']->render('portfolio.twig', array('templates' => $templates));
+})->bind('portfolio');
