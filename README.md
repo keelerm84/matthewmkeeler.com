@@ -10,3 +10,8 @@ To work locally on the site, you can fire up Vagrant, and it should take care of
     git submodule update
     composer update
     vagrant up
+
+Once the VM is up, run the database migrations and populate the tables with the skill data
+
+    php -f app/console knp:migration:migrate
+    php -f app/console mojo:skills
