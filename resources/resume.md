@@ -33,9 +33,9 @@ Objective:  To expand my knowledge base while developing innovative applications
 * Phi Kappa Phi award recipient
 
 ### Find Me @
-* [mojoLive](mojolive.com/profile/keelerm84)
-* [Twitter](twitter.com/keelerm84)
-* [GitHub](github.com/keelerm84)
+* [mojoLive](http://mojolive.com/profile/keelerm84)
+* [Twitter](http://twitter.com/keelerm84)
+* [GitHub](http://github.com/keelerm84)
 
 ## Education
 ### Wichita State University 2013 - Present
