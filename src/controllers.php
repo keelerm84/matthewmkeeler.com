@@ -24,3 +24,9 @@ $app->get('/portfolio', function() use ($app) {
 
     return $app['twig']->render('portfolio.twig', array('templates' => $templates));
 })->bind('portfolio');
+
+$app->get('/resume', function() use ($app) {
+    $resume = file_get_contents(__DIR__ . '/../resources/resume.md');
+    return $app['twig']->render('resume.twig', array('resume' => $resume));
+})->bind('resume');
+

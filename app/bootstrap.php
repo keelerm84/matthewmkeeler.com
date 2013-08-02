@@ -31,6 +31,12 @@ $app->register(new TwigServiceProvider(), array(
     'twig.path' => __DIR__ . '/../resources/views'
 ));
 
+$app['twig'] = $app->share($app->extend('twig', function($twig, $app) {
+    $twig->addExtension(new \Twig_Extension_Markdown($app));
+
+    return $twig;
+}));
+
 $app->register(new UrlGeneratorServiceProvider());
 
 return $app;

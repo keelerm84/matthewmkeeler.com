@@ -1,0 +1,9 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="large-12 columns">
+            {{ resume|markdown|raw }}
+        </div>
+    </div>
+{% endblock %}

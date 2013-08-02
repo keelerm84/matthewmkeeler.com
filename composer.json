@@ -1,16 +1,40 @@
 {
-    "require": {
-        "silex/silex": "1.*",
-        "twig/twig": ">=1.8",
-        "knplabs/console-service-provider": "dev-master",
-        "knplabs/migration-service-provider": "dev-master",
-        "deralex/yaml-config-service-provider": "1.0.x-dev",
-        "symfony/yaml": "2.1.*@dev",
-        "symfony/twig-bridge": "~2.3"
-    },
-    "autoload": {
-        "psr-0": {
-            "Keelerm": "src/"
-        }
+  "repositories": [
+    {
+    "type": "package",
+    "package": {
+      "name": "michelf/php-markdown",
+      "version": "1.0",
+      "dist": {
+        "url": "https://github.com/michelf/php-markdown/zipball/extra",
+        "type": "zip"
+      },
+      "autoload": {
+        "files": [
+          "markdown.php"
+        ]
+      }
     }
+  },
+  {
+    "type": "vcs",
+    "url": "http://github.com/geta6/Twig-Markdown"
+  }
+  ],
+  "require": {
+    "silex/silex": "1.*",
+    "twig/twig": ">=1.8",
+    "knplabs/console-service-provider": "dev-master",
+    "knplabs/migration-service-provider": "dev-master",
+    "deralex/yaml-config-service-provider": "1.0.x-dev",
+    "symfony/yaml": "2.1.*@dev",
+    "symfony/twig-bridge": "~2.3",
+    "michelf/php-markdown": "1.*",
+    "geta6/twig-markdown": "@dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "Keelerm": "src/"
+    }
+  }
 }
