@@ -1,5 +1,5 @@
 # Matthew M. Keeler
-C 918.213.9388 • E keelerm@tortugas-llc.com • 1511 East Street, Andover KS 67002  
+C 918.213.9388 • E keelerm@tortugas-llc.com • 261 Michigan Avenue, Cary NC 27519  
 Objective:  To expand my knowledge base while developing innovative applications using industry best practices.
 
 ## Skills
@@ -9,7 +9,9 @@ Objective:  To expand my knowledge base while developing innovative applications
 
 ### Tools / Libraries / Frameworks
 * **Proficient**: MySQL, Git, Symfony 2, PHPUnit, Doctrine 2, jQuery, vim, emacs, xdebug, composer, tmux
-* **Experienced**: Oracle 11g, postgreSQL, SQLite, Node.js, SVN, Mercurial, Rails, Silex, Capistrano, Vagrant, Puppet, Frisby.js, Behat, Mink, Android, Zend Framework 1.11
+* **Experienced**: Oracle 11g, postgreSQL, SQLite, Node.js, SVN, Mercurial,
+  Rails, Silex, Capistrano, Vagrant, Puppet, Frisby.js, Behat, Mink, Android,
+  Zend Framework 1.11
 
 ### Operating Systems
 * GNU/Linux
@@ -61,21 +63,32 @@ Magna Cum Laude 4.0 major GPA, 3.81 overall
 Work Requirements
 
 * Craft custom solutions to solve client-specifc problems
-* Utilize and extend existing solutions to reduce client cost without sacrificing business domain requirements
+* Utilize and extend existing solutions to reduce client cost without
+  sacrificing business domain requirements
 
 Highlights
 
 * Implement eCommerce site using OpenCart
 * Create OpenCart extension to integrate with Authorize.net DPM API
 
+### American Journal Experts
+**Software Developer**
+*October 2013 - Present*
+
+Work Requirements
+
+* Maintain the AJE suite of products
+* Extend and refactor existing code base using Doctrine 2 and Zend Framework 1
+
 ### TimeIPS
 **Software Developer and Systems Analyst**  
-*June 2011 - Present*
+*June 2011 - October 2013*
 
 Work Requirements
 
 * Enhance the TimeIPS personnel management software
-* Maintain and develop supporting applications, including both desktop and embedded QT4/C++ projects
+* Maintain and develop supporting applications, including both desktop and
+  embedded QT4/C++ projects
 * Requirement gathering and custom integration exploration and implementation
 * Provide support for 3,000+ company customer base
 
@@ -86,7 +99,8 @@ Highlights
 * Led migration to git
 * Increased efficiency by introducing new branching model and xdebug
 * Tutored peers on OO design and construction to reduce code duplication
-* Created cross-platform desktop clocking application with biometric validation in C++/QT4.8
+* Created cross-platform desktop clocking application with biometric validation
+  in C++/QT4.8
 
 ### OLC Global
 **Applications Developer and DBA**  
@@ -103,7 +117,8 @@ Highlights
 
 * Payroll system efficiency increased, code base reduced
 * Shell system ported from CSH to Bash
-* Port of payroll system from MS Access to LAMP stack utilizing Zend Framework 1.10, Doctrine 2.0, and MySQL 5.1
+* Port of payroll system from MS Access to LAMP stack utilizing Zend Framework
+  1.10, Doctrine 2.0, and MySQL 5.1
 
 **Lead Supervisor**  
 *September 2006 - March 2007*
@@ -128,7 +143,8 @@ GitList
 TimeTrap
 
 * First Ruby project I have worked with
-* Implemented new features such as a LaTeX based custom formatter for invoice generation
+* Implemented new features such as a LaTeX based custom formatter for invoice
+  generation
 
 Bug Genie Issue Tracker
 
@@ -136,7 +152,8 @@ Bug Genie Issue Tracker
 
 YouTube DL GUI
 
-* Created a cross-platform front-end GUI for the popular youtube-dl command line script
+* Created a cross-platform front-end GUI for the popular youtube-dl command
+  line script
 * Written in C++ using QT4.8
 
 PHP Mentoring Program
@@ -153,11 +170,18 @@ E abbotts@olcglobal.com
 
 Recommendation from LinkedIn:
 
-> I've had the pleasure of working with Matthew for four years now, Matthew is a well spoken individual, skilled database administrator/programmer, and an excellent web application developer, utilizing PHP5. He is also a good Unix shell programmer, utilizing his skills to automate various tasks that are required when needed. 
+> I've had the pleasure of working with Matthew for four years now, Matthew is
+> a well spoken individual, skilled database administrator/programmer, and an
+> excellent web application developer, utilizing PHP5. He is also a good Unix
+> shell programmer, utilizing his skills to automate various tasks that are
+> required when needed.
 
-> Without a doubt in my mind, Matthew is the fastest learner I've had the pleasure to work with, being able to pick up new languages and technologies is short order. 
+> Without a doubt in my mind, Matthew is the fastest learner I've had the
+> pleasure to work with, being able to pick up new languages and technologies
+> is short order.
 
-> I enjoy all the conversations I had with Matthew when brain storming together. I also enjoy playing ping-pong ("table tennis") with him.
+> I enjoy all the conversations I had with Matthew when brain storming
+> together. I also enjoy playing ping-pong ("table tennis") with him.
 
 ### Jacob Walker
 *Colleague at OLC Global / Fellow Student at ESU*  
@@ -166,9 +190,15 @@ E jacobwalker0814@gmail.com
 
 Recommendation from LinkedIn:
 
-> I worked with Matthew as a supervisor in the market research industry and I can honestly say that I could not have asked for a better leader. He always strove to be fair, consistent, and creative in his management practices. 
+> I worked with Matthew as a supervisor in the market research industry and I
+> can honestly say that I could not have asked for a better leader. He always
+> strove to be fair, consistent, and creative in his management practices.
 
-> More importantly Matthew has been a great boon to my growth and development in the IT world. There has never been a question of mine that Matthew was not willing or able to answer; his technical knowledge is outstanding. We have worked together informally on several projects and have developed great synergy.
+> More importantly Matthew has been a great boon to my growth and development
+> in the IT world. There has never been a question of mine that Matthew was not
+> willing or able to answer; his technical knowledge is outstanding. We have
+> worked together informally on several projects and have developed great
+> synergy.
 
 ### Ben Racine
 *Fellow Student at ESU*  
@@ -176,4 +206,12 @@ E wisher21@gmail.com
 
 Recommendation from LinkedIn:
 
-> I had the distinct pleasure of working with (and learning from) Mr. Keeler while we were both studying CS and math at Emporia. We've kept in touch since. Of those I've worked with, either in an academic or business setting, Matt is among the very best. When I recently found myself looking for a collaborator on a project, he was the first name that came to mind. He has an exceedingly sharp grasp of concepts, and has both technical skills, as well as being an excellent person to carry a conversation with. He would be a good choice to manage staff, or deal with interpersonal issues. He would be a definite asset to any organization, in a number of key roles.
+> I had the distinct pleasure of working with (and learning from) Mr. Keeler
+> while we were both studying CS and math at Emporia. We've kept in touch
+> since. Of those I've worked with, either in an academic or business setting,
+> Matt is among the very best. When I recently found myself looking for a
+> collaborator on a project, he was the first name that came to mind. He has an
+> exceedingly sharp grasp of concepts, and has both technical skills, as well
+> as being an excellent person to carry a conversation with. He would be a good
+> choice to manage staff, or deal with interpersonal issues. He would be a
+> definite asset to any organization, in a number of key roles.

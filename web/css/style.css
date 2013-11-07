@@ -16,6 +16,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Arbutus Slab", serif;
 }
 
+li { list-style-position: inside; }
+
 .top-bar-section i {
     font-size: 1.5em;
 }
