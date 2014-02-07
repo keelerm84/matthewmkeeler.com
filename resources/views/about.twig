@@ -2,7 +2,7 @@
 
 {% block body %}
   <div class="row">
-    <div class="large-9 columns">
+    <div class="large-8 columns">
         <h1>About Me</h1>
         <p>
           Living in the Raleigh-Durham area, I work as a PHP developer at <a
@@ -81,7 +81,7 @@
         </p>
     </div>
 
-    <div class="large-3 columns">
+    <div class="large-4 columns">
       <h3>Skills</h3>
       <ul class="no-bullet">
           {% for skill in skills %}
@@ -89,6 +89,20 @@
           {% endfor %}
       </ul>
       <small>* Sample data taken from my <a href="http://mojolive.com/profile/keelerm84">MojoLive profile</a>, shown relative to months of experience</small>
+
+      <div id="octocard"></div>
+      <script>
+       OCTOCARD = {
+         name: 'keelerm84',
+         element: 'octocard',
+         modules: 'base,details,stats,repos,orgs,eventsStatis',
+         reposNum: 3,
+         reposIgnored: 'symfony-blog,SupportMessage,External-Drive-Backup-Script',
+         orgsNum: 3,
+         noFooter: true
+       };
+      </script>
+      <script src="http://nodejs.in/octocard/bin/octocard.js"></script>
     </div>
   </div>
 {% endblock %}
